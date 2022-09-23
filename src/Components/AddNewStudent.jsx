@@ -28,6 +28,24 @@ const AddNewStudent = () => {
 
     Details.push({ id: uniqueid, name: a, age: b, course: c, batch: d });
     history("/Students");
+
+    
+
+  
+  //  const handleCancel=(e)=>{
+  //   e.preventDefault();
+  //   const ids = uuid();
+  //   let uniqueid = ids.slice(0, 8);
+  //   let a = name;
+  //   let b = age;
+  //   let c = course;
+  //   let d = batch;
+  //   Details.push({ id: uniqueid, name: a, age: b, course: c, batch: d });
+  //   history("/Students");
+
+    
+  //  }
+    
   };
   return (
     <>
@@ -61,7 +79,7 @@ const AddNewStudent = () => {
     <button onClick={(e)=>handleSubmit(e)} type="button" class="btn btn-warning">Cancel</button> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
     <button onClick={(e)=>handleSubmit(e)} type="button" class="btn btn-success">Submit</button>
-
+ 
     
      </div>
     </div>

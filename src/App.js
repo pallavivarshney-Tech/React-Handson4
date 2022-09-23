@@ -8,7 +8,7 @@ import Students from './Components/Students';
 import PageNotFound from './Components/PageNotFound';
 import AddNewStudent from './Components/AddNewStudent';
 import Update from './Components/Update';
-// import Edit from './Components/Edit';
+
 
 function App() {
   return (
